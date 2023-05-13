@@ -25,6 +25,7 @@ export const MyProjects = () => {
                             to suggest wines based on the user's
                             selected favorite wines. This project also incorporated Tailwind, Cloudinary, Leaflet, and other UI libraries.</p>
                         <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/white-rabbit") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub</Link>
+                        <Link href="#" onClick={() => openInNewTab("https:/white-rabbit.live") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link>
     
                     </div>
                 </div>
