@@ -19,13 +19,15 @@ export const MyProjects = () => {
                     <img src="../images/whiterabbit.png" className="w-full md:w-[80%] h-full border border-6" />
                     <div className="flex flex-col p-2">
                         <p className="text-sm">White Rabbit is a single page CRUD
-                            app built using ReactS. It is designed
+                            app built using ReactS and Django. It is designed
                             to educate the novice wine user on
                             unfamiliar wine, and uses algorithms
                             to suggest wines based on the user's
                             selected favorite wines. This project also incorporated Tailwind, Cloudinary, Leaflet, and other UI libraries.</p>
-                        <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/white-rabbit") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub</Link>
-                        <Link href="#" onClick={() => openInNewTab("https:/white-rabbit.live") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link>
+                        <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/whiterabbitV2-server") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Server Side</Link>
+                        <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/whiterabbitV2-client") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Client Side</Link>
+
+                        <Link href="#" onClick={() => openInNewTab("https://whiterabbit-client.herokuapp.com/") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link>
     
                     </div>
                 </div>
