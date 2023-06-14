@@ -9,12 +9,15 @@ export const AboutMe = () => {
         <div className="bg-white w-full overflow-x-hidden ">
             <div className="mx-auto p-10 max-w-7xl px-6 lg:px-8">
                 <h2 className="text-center text-2xl font-semibold leading-8 text-secondary">my skills.</h2>
-                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                     <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://th.bing.com/th/id/OIP.a_wOSqpiu-wR6KEOKE1E0wAAAA?pid=ImgDet&rs=1" alt="React" width="158" height="48" />
                     <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://th.bing.com/th/id/OIP.ViV1OEesGeL1Qcjvf0HhJgHaIB?pid=ImgDet&rs=1" alt="Javascript" width="158" height="48" />
                     <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://pluspng.com/img-png/python-logo-png-python-logo-png-and-vector-logo-img-4096x4553.png" alt="Python" width="158" height="48" />
                     <img className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://th.bing.com/th/id/R.db767259a291c24ce95816fac91fdd94?rik=kQB%2f1TD%2f9BEjtQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f9cz%2f6gL%2f9cz6gLroi.png&ehk=6Q%2bn5zCIoyy3DiO9p3QBoznEtfrqUV8tTSU4r6kWw%2bM%3d&risl=&pid=ImgRaw&r=0" alt="SQL" width="158" height="48" />
                     <img className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://dkrn4sk0rn31v.cloudfront.net/2019/02/06111419/1200px-Django_logo.svg.png" alt="Django" width="158" height="48" />
+                    <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://th.bing.com/th/id/OIP.S-SYtYzIhgPRnmRd8yWH4gAAAA?pid=ImgDet&rs=1" alt="Tailwind" width="158" height="48" />
+                    <img className="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://jquery-plugins.net/image/plugin/chakra-ui-simple-modular-accessible-ui-components-for-react-applications.png" alt="Tailwind" width="158" height="48" />
+
                 </div>
             </div>
         </div>
