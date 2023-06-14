@@ -14,6 +14,20 @@ export const MyProjects = () => {
         <div className="carousel carousel-center w-3/4 mx-auto">
 
             <div className="carousel-item flex flex-col w-full h-full">
+                <h1 className="text-3xl text-secondary ">HomePlace</h1>
+                <div className="flex flex-col md:flex-row text-secondary">
+                    <img src="../images/homeplace.png" className="w-full md:w-[80%] h-full border border-6" />
+                    <div className="flex flex-col p-2">
+                        <p className="text-sm">Developed a full-stack app using React and Django, featuring upgraded search functionality and an interactive map. Enabled users to perform advanced searches, filter results, and view property locations on a dynamic map.</p>
+                        <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/homeplace-server") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Server Side</Link>
+                        <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/homeplace-client") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Client Side</Link>
+
+                        {/* <Link href="#" onClick={() => openInNewTab("https://whiterabbit-client.herokuapp.com/") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link> */}
+    
+                    </div>
+                </div>
+            </div>
+            <div className="carousel-item flex flex-col w-full h-full">
                 <h1 className="text-3xl text-secondary ">white rabbit.</h1>
                 <div className="flex flex-col md:flex-row text-secondary">
                     <img src="../images/whiterabbit.png" className="w-full md:w-[80%] h-full border border-6" />
