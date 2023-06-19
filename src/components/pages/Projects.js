@@ -21,6 +21,7 @@ export const MyProjects = () => {
                         <p className="text-sm">Developed a full-stack app using React and Django, featuring upgraded search functionality and an interactive map. Enabled users to perform advanced searches, filter results, and view property locations on a dynamic map.</p>
                         <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/homeplace-server") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Server Side</Link>
                         <Link href="#" onClick={() => openInNewTab("https://github.com/visionfiller/homeplace-client") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">GitHub Client Side</Link>
+                        <Link href="#" onClick={() => openInNewTab("http://homeplace.live") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link>
 
                         {/* <Link href="#" onClick={() => openInNewTab("https://whiterabbit-client.herokuapp.com/") } className=" m-2 text-center w-full h-6 bg-secondary rounded-lg font-semibold text-white">Deployed Site</Link> */}
     
